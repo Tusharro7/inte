@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+
+html body {
+    background-color:black;
+    margin: 3vh 15vh;
+}
+
+nav {
+    top: 0;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #dadada;
+    background-color: #171717;
+    min-height: 13vh;
+    width: 85vw;
+    border-bottom: 0.8px solid #dadada;
+    padding:0  1vw;
+    border-radius: 2vh;
+}
+nav h1 {
+    font-size: 5vh;
+}
+nav h1 span {
+    color: orangered;
+}
+nav ol {
+    padding-left: 3vh;
+    display: flex;
+    gap: 4vw;
+    justify-content: center;
+    height: 100%;
+    /* width: 600px; */
+}
+
+nav ol h3 {
+    font-weight: 100;
+    font-size: 3vh;
+    text-transform: capitalize;
+    height: 100%;
+}
+
+nav ol :hover {
+    font-weight: 700;
+    transition: ease;
+    cursor: pointer;
+    color: rgb(210, 82, 8);
+}
+nav:hover{
+    background-color: #171717;
+}
+nav #btn {
+    color: #111;
+    width: 100%;
+    height: 5vh;
+    padding: 0 1vw;
+    font-size: medium;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 2vh;
+    cursor: pointer;
+}
+
+nav #btn:hover{
+    background-color: red;
+    color: white;
+    border: 3px solid #ffffff ;
+}
+
+
+
+.sc1 {
+    /* border: 5px solid rgb(225, 219, 219); */
+    padding-top: 13vh;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin-top: 40px;
+    margin-bottom: 80PX;
+}
+
+#photo {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+    /* background-color: red; */
+    object-position: cover;
+}
+
+#photo img {
+    position: relative;
+    width: 100%;
+    height: 79vh;
+    object-fit: cover;
+}
+
+.sc1 #text1 {
+    /* border: 5px solid rebeccapurple; */
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 4vh;
+}
+
+#text1 h1 {
+    color: red;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+#text1 ol {
+    line-height: 7vh;
+}
+
+/* Style for search container */
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 7vh;
+    height: 7vh;
+    width: 85vw;
+    justify-content: center;
+}
+
+/* Style for search bar */
+.search-bar {
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 2vh;
+    color: black;
+}
+
+/* Style for search button */
+.search-button {
+
+        padding: 3.2vh;
+        justify-items: center;
+        border: 2px solid #ccc;
+        border-left: none;
+        color: #111;
+        border-radius: 0 5px 5px 0;
+        background-color: #f1f1f1;
+        cursor: pointer;
+        font-weight: 800;
+        font-size: 3vh;
+        align-items: center;
+        position: relative;
+        display: flex;
+}
+
+/* Hover effect for search button */
+.search-button:hover {
+    background-color: #ddd;
+}
+
+#sc2 {
+    padding-top: 7vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.boxx {
+    display: flex;
+    position: relative;
+    min-height: 70vh;
+    /* margin: 0vh 0 ; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.boxx .bo{
+    position: relative;
+    display: flex;
+    background-color: #fff;
+    border: 5px solid black;
+    gap: 5vw;
+    height: 40vh;
+    width: 20vw;
+    border-radius: 2vh;
+    object-fit: cover;
+    border: 5px solid white;
+    
+}
+
+.boxx .bo img {
+    overflow: hidden;
+    border-radius: 1vh;
+   width: 100%;
+
+}
+
+.div1{
+    position: relative;
+    text-align: center;
+}
+.div1 p{
+    padding-top: 1.3vh;
+    font-size: 3vh;
+}
+
+#f1 h1{
+    padding: 13vh 0 0 0;
+    font-size: 4vh;
+}
+#f1 h2{
+    color: rgb(210, 82, 8);
+    width: 100%;
+    text-align: center;
+    font-size: 5vh;
+}
+
+
+@media screen  and (max-width:400px){
+    .sc1 {
+        /* border: 5px solid rgb(225, 219, 219); */
+        padding-top: 13vh;
+        display: flex;
+        flex-direction: column;
+    
+    }
+}
