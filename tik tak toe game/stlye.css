@@ -92,7 +92,7 @@ body {
 }
 
 .con2 h3 {
-    font-size: 3em  ;
+    font-size: 3em;
     text-align: center;
 }
 
@@ -124,23 +124,27 @@ body {
         /* background-color: black; */
         position: relative;
         display: flex;
-        flex-direction: column;
-        padding:20vh 0 ;
-    } 
-    .container .con2{
-        padding-top: 10vh;
-    
+        https: //github.com/Tusharro7/inte/tree/main/tik%20tak%20toe%20game
+            flex-direction: column;
+        padding: 20vh 0;
     }
-    .container .con2 h3{
+
+    .container .con2 {
+        padding-top: 10vh;
+
+    }
+
+    .container .con2 h3 {
         font-size: 1.2rem;
     }
+
     .container .con2 .info {
-        height:20vh;
+        height: 20vh;
         font-size: 1rem;
     }
-    .container .con2 #restart{
+
+    .container .con2 #restart {
         width: 20vw;
         margin-left: 10vh;
-    }  
     }
-   
+}
